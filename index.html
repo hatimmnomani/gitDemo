@@ -26,11 +26,11 @@
   <script>
     let snum1 = document.getElementById('subnum1');
     let snum2 = document.getElementById('subnum2');
-    let add = document.getElementById('subtract');
-    let result = document.getElementById('subtractresult');
-    add.addEventListener('click', () => {
+    let subtractbtn = document.getElementById('subtract');
+    let subresult = document.getElementById('subtractresult');
+    subtractbtn.addEventListener('click', () => {
       let subtract = parseInt(snum1.value) - parseInt(snum2.value);
-      result.innerHTML = subtract;
+      subresult.innerHTML = subtract;
     });
 
     let num1 = document.getElementById('num1');
